@@ -1,0 +1,18 @@
+/*
+  test repeat-until
+*/
+read i;
+write i;
+read a;
+write a;
+i=1;
+repeat
+i = i+1;
+if i==8
+write 1000
+else
+write 800
+end;
+write i
+until i>10;
+write i

@@ -1,0 +1,4 @@
+// test for
+for(t=9; t; t = t - 1){
+  write t
+}
